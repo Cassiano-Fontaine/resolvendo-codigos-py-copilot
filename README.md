@@ -1,85 +1,68 @@
-# Resolvendo Códigos em Python com o Github Copilot
+# Resolvendo Códigos em Python
 
-Olá!! Aqui veremos algumas resoluções de códigos em python utilizando o Github Copilot.
+Projeto desenvolvido durante a formação **GitHub Certification da DIO**, com o objetivo de praticar lógica de programação e conceitos básicos de Python.
 
-### Atenção ⚠️ 
+Os exercícios foram baseados no [repositório da instrutora](https://github.com/alinealien/resolvendo-codigos-py-copilot), com algumas melhorias e adaptações.
 
-Não tem acesso ao Github Copilot?! Não tem problema!! 
-Que tal utilizar o [ChatGPT](https://chat.openai.com/) como seu copiloto de estudos ??
+## Exercícios
 
-## 1 - Concatenando Dados 🐾
+| Exercício | Descrição |
+|---|---|
+| Concatenando dados | Junta dois textos com um separador escolhido pelo usuário. |
+| Repetindo textos | Repete um texto conforme a quantidade informada. |
+| Operações matemáticas | Realiza soma, subtração, multiplicação e divisão. |
+| Pares e ímpares | Verifica se um número é par ou ímpar. |
+| Média de notas | Calcula a média de três notas e informa a situação do aluno. |
+| Palíndromos | Verifica se uma palavra ou frase pode ser lida de trás para frente. |
 
-Descrição:
-Vamos receber dois dados diferentes do usuário e concatena-los em uma única string?! 
+## Melhorias realizadas
 
-O que aprenderemos?
+Além das soluções propostas, fiz alguns ajustes para melhorar o funcionamento dos exercícios:
 
-* Manipulação de Strings (string)
-* Concatenação
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+- Validação de entradas em situações específicas.
+- Tratamento de divisão por zero.
+- Mensagens para entradas inválidas.
+- Opção de escolher a operação matemática.
+- Verificação de aprovação no cálculo da média.
 
-<br>
+Procurei manter os códigos simples, utilizando os conceitos estudados, como `input()`, `print()`, operadores e condicionais.
 
-## 2 - Repetindo Textos ✏️
+## Como executar
 
-Descrição:
-Agora vamos solicitar uma string e um número inteiro como entrada. Depois teremos que retornar a string repetida o número de vezes informado. 
+Clone o repositório:
 
-O que aprenderemos?
+```bash
+git clone https://github.com/Cassiano-Fontaine/resolvendo-codigos-py-copilot.git
+```
 
-* Manipulação de Strings (string)
-* Números Inteiros (int)
-* Múltiplas repetições
-* Entrada de dados
-* Aproveitar as sugestões do Github Copilot
+Entre na pasta do projeto:
 
-<br>
+```bash
+cd resolvendo-codigos-py-copilot
+```
 
-## 3 - Operações Matemáticas Simples 📐
+Para executar um exercício, por exemplo:
 
-Descrição:
-Vamos solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+```bash
+python3 resolucoes_code/ope_mat.py
+```
 
-O que aprenderemos?
+Os demais arquivos estão na pasta `resolucoes_code`.
 
-* Operações Matemáticas Básicas
-* Entrada de dados
-* Utilização eficiente do Github Copilot
+## O que aprendi
 
-<br>
+Com os exercícios, pude praticar manipulação de strings, operações matemáticas, condicionais e entrada de dados.
 
-## 4 - Verificando Números Pares e Ímpares 🧮
+Também trabalhei com algumas situações que poderiam causar erros, procurando resolvê-las sem complicar o código.
 
-Descrição: Como entrada, receba um número inteiro e verifique se ele é par ou ímpar. 
-Uma dica é: Utilize condicionais para realizar a verificação e, se possível, faça uso do Github Copilot(ou outra IA) para otimizar a estrutura do código.
+Utilizei IA como apoio para revisar as soluções e entender melhor algumas partes da implementação.
 
-O que aprenderemos?
-* Utilização de condicionais em Python (if, else) para realizar verificações.
-* Introdução ao conceito de operador de módulo (%) para verificar se um número é par ou ímpar.
-* Exploração do uso de uma ferramenta de IA, como o Github Copilot, para otimizar a estrutura do código.
+## Referência
 
+Desafio baseado no projeto [Resolvendo Códigos em Python com o GitHub Copilot](https://github.com/alinealien/resolvendo-codigos-py-copilot), disponibilizado na DIO.
 
-<br>
+## Autor
 
-## 5 - Calculando Média de Notas 📚
+**Cassiano Fontaine**
 
-Descrição: Agora vamos calcular a média de três notas fornecidas na entrada do usuário. 
-Uma dica é: Utilize operadores aritméticos para realizar o cálculo da média.
-
-O que aprenderemos?
-* Uso de variáveis para armazenar dados fornecidos pelo usuário.
-* Aplicação de operadores aritméticos (+, /) para calcular a média de um conjunto de valores.
-* Prática na solicitação e manipulação de entrada do usuário.
-
-<br>
-
-## 6 - Verificando Palíndromos 🔄
-
-Descrição: Vamos testar se uma palavra é um palíndromo?! 
-Uma dica é: Utilize conceitos de manipulação de strings para inverter a palavra e comparar com a original.
-
-O que aprenderemos?
-* Manipulação de strings em Python, especialmente invertendo uma string.
-* Compreensão de como comparar a string original com sua versão invertida para determinar se é um palíndromo.
-* Introdução ao conceito de palíndromos e sua aplicação em problemas de programação.
+[GitHub](https://github.com/Cassiano-Fontaine) | [LinkedIn](https://www.linkedin.com/in/cassiano-fontaine)
