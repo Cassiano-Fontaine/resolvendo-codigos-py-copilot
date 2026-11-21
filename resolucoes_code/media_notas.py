@@ -1,28 +1,25 @@
-"""Desafio 5: calcular a média de três notas e informar a situação."""
 
+# Vamos calcular a média de três notas fornecidas pelo usuário.
 
-def calcular_media(nota1: float, nota2: float, nota3: float) -> float:
-    for nota in (nota1, nota2, nota3):
-        if not 0 <= nota <= 10:
-            raise ValueError("As notas devem estar entre 0 e 10.")
-    return (nota1 + nota2 + nota3) / 3
+# Recebe as três notas
+nota1 = float(input("Digite a primeira nota (0 a 10): "))
+nota2 = float(input("Digite a segunda nota (0 a 10): "))
+nota3 = float(input("Digite a terceira nota (0 a 10): "))
 
+# Verifica se as notas estão entre 0 e 10
+if 0 <= nota1 <= 10 and 0 <= nota2 <= 10 and 0 <= nota3 <= 10:
 
-def verificar_situacao(media: float, media_minima: float = 7.0) -> str:
-    return "Aprovado" if media >= media_minima else "Reprovado"
+    # Calcula a média das notas
+    media = (nota1 + nota2 + nota3) / 3
 
+    # Exibe a média
+    print("Média:", round(media, 2))
 
-def main() -> None:
-    try:
-        nota1 = float(input("Digite a primeira nota (0 a 10): "))
-        nota2 = float(input("Digite a segunda nota (0 a 10): "))
-        nota3 = float(input("Digite a terceira nota (0 a 10): "))
-        media = calcular_media(nota1, nota2, nota3)
-        print(f"Média: {media:.2f}")
-        print(f"Situação: {verificar_situacao(media)}")
-    except ValueError as erro:
-        print(f"Erro: {erro}")
+    # Verifica a situação do aluno
+    if media >= 7:
+        print("Situação: Aprovado")
+    else:
+        print("Situação: Reprovado")
 
-
-if __name__ == "__main__":
-    main()
+else:
+    print("Erro: as notas devem estar entre 0 e 10.")
