@@ -27,6 +27,8 @@ Além das soluções propostas, fiz alguns ajustes para melhorar o funcionamento
 
 Procurei manter os códigos simples, utilizando os conceitos estudados, como `input()`, `print()`, operadores e condicionais.
 
+Durante os exercícios, optei por utilizar estruturas simples, como condicionais e operadores básicos. Também adicionei algumas validações para evitar erros comuns e facilitar a utilização dos programas.
+
 ## Como executar
 
 Clone o repositório:
